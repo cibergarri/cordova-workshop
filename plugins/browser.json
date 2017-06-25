@@ -30,6 +30,9 @@
         },
         "cordova-plugin-compat": {
             "PACKAGE_NAME": "com.yourname.workshop"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.yourname.workshop"
         }
     },
     "dependent_plugins": {}

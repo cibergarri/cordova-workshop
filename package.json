@@ -11,7 +11,6 @@
     "license": "Apache-2.0",
     "dependencies": {
         "cordova-android": "^6.2.2",
-        "cordova-ios": "^4.4.0",
         "cordova-plugin-camera": "^2.4.1",
         "cordova-plugin-compat": "^1.1.0",
         "cordova-plugin-console": "^1.0.7",
@@ -35,11 +34,14 @@
             "cordova-plugin-contacts": {
                 "CONTACTS_USAGE_DESCRIPTION": " "
             },
-            "cordova-plugin-compat": {}
+            "cordova-plugin-compat": {},
+            "cordova-plugin-camera": {
+                "CAMERA_USAGE_DESCRIPTION": " ",
+                "PHOTOLIBRARY_USAGE_DESCRIPTION": " "
+            }
         },
         "platforms": [
-            "android",
-            "ios"
+            "android"
         ]
     }
 }

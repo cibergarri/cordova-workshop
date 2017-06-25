@@ -38,6 +38,7 @@ var EmployeeView = function(employee) {
         phoneNumbers[1] = new ContactField('mobile', employee.cellPhone, true);
         contact.phoneNumbers = phoneNumbers;
         contact.save();
+        alert("Contact added");
         return false;
     };
 

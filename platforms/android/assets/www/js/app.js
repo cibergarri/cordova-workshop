@@ -45,11 +45,5 @@
         };
         FastClick.attach(document.body);
     }, false);
-    /* ---------------------------------- Local Functions ---------------------------------- */
-    /*function findByName() {
-        service.findByName($('.search-key').val()).done(function (employees) {
-            $('.content').html(employeeListTpl(employees));
-        });
-    };*/
 
 }());
