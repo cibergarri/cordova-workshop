@@ -10,13 +10,11 @@
     service.initialize().done(function () {
         router.addRoute('', function() {
             slider.slidePage(new HomeView(service).render().$el);
-            //$('body').html(new HomeView(service).render().$el);
         });
 
         router.addRoute('employees/:id', function(id) {
             service.findById(parseInt(id)).done(function(employee) {
                 slider.slidePage(new EmployeeView(employee).render().$el);
-                //$('body').html(new EmployeeView(employee).render().$el);
             });
         });
 
@@ -24,9 +22,6 @@
     });
 
     /* --------------------------------- Event Registration -------------------------------- */
-    /*$('.help-btn').on('click', function() {
-        alert("Employee Directory v3.4");
-    });*/
 
     document.addEventListener('deviceready', function () {
         StatusBar.overlaysWebView( false );
