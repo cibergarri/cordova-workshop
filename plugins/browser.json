@@ -18,6 +18,9 @@
         },
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.yourname.workshop"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.yourname.workshop"
         }
     },
     "dependent_plugins": {}

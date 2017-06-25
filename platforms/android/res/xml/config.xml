@@ -10,7 +10,11 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <name>Working directory</name>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>WorkingDirectory</name>
     <description>
         Cordova Sample application with a directory of employees.
     </description>

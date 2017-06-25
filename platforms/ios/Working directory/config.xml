@@ -24,7 +24,11 @@
     <feature name="Console">
         <param name="ios-package" value="CDVLogger" />
     </feature>
-    <name>Working directory</name>
+    <feature name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>WorkingDirectory</name>
     <description>
         Cordova Sample application with a directory of employees.
     </description>
@@ -54,4 +58,6 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
 </widget>

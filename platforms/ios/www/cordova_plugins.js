@@ -31,6 +31,14 @@ module.exports = [
         "clobbers": [
             "cordova.logger"
         ]
+    },
+    {
+        "id": "cordova-plugin-statusbar.statusbar",
+        "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+        "pluginId": "cordova-plugin-statusbar",
+        "clobbers": [
+            "window.StatusBar"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -39,7 +47,8 @@ module.exports.metadata =
     "cordova-plugin-dialogs": "1.3.3",
     "cordova-plugin-whitelist": "1.3.2",
     "cordova-plugin-device": "1.1.6",
-    "cordova-plugin-console": "1.0.7"
+    "cordova-plugin-console": "1.0.7",
+    "cordova-plugin-statusbar": "2.2.3"
 };
 // BOTTOM OF METADATA
 });
