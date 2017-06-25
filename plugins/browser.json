@@ -21,7 +21,14 @@
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.yourname.workshop"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.yourname.workshop"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.yourname.workshop"
+        }
+    }
 }
