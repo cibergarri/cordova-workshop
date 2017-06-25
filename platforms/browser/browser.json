@@ -33,10 +33,10 @@
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.yourname.workshop"
         },
-        "cordova-plugin-compat": {
+        "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.yourname.workshop"
         },
-        "cordova-plugin-geolocation": {
+        "cordova-plugin-compat": {
             "PACKAGE_NAME": "com.yourname.workshop"
         }
     },
@@ -93,7 +93,7 @@
         "cordova-plugin-device": "1.1.6",
         "cordova-plugin-console": "1.0.7",
         "cordova-plugin-statusbar": "2.2.3",
-        "cordova-plugin-compat": "1.0.0",
-        "cordova-plugin-geolocation": "2.4.3"
+        "cordova-plugin-geolocation": "2.4.3",
+        "cordova-plugin-compat": "1.0.0"
     }
 }
