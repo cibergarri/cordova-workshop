@@ -31,6 +31,9 @@
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
     </feature>
+    <feature name="Contacts">
+        <param name="ios-package" value="CDVContacts" />
+    </feature>
     <name>WorkingDirectory</name>
     <description>
         Cordova Sample application with a directory of employees.
