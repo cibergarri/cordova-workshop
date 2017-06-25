@@ -29,11 +29,10 @@
         "cordova-plugin-contacts": {
             "CONTACTS_USAGE_DESCRIPTION": " ",
             "PACKAGE_NAME": "com.yourname.workshop"
-        }
-    },
-    "dependent_plugins": {
+        },
         "cordova-plugin-compat": {
             "PACKAGE_NAME": "com.yourname.workshop"
         }
-    }
+    },
+    "dependent_plugins": {}
 }

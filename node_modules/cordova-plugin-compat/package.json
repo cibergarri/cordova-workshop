@@ -1,27 +1,27 @@
 {
-  "_from": "cordova-plugin-compat@1.0.0",
-  "_id": "cordova-plugin-compat@1.0.0",
+  "_from": "cordova-plugin-compat",
+  "_id": "cordova-plugin-compat@1.1.0",
   "_inBundle": false,
-  "_integrity": "sha1-VLdz+mohL+jmCtSWustXqgHaQjI=",
+  "_integrity": "sha1-kr3xaf62EgUyPcyWo/+DSON+h/w=",
   "_location": "/cordova-plugin-compat",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "tag",
     "registry": true,
-    "raw": "cordova-plugin-compat@1.0.0",
+    "raw": "cordova-plugin-compat",
     "name": "cordova-plugin-compat",
     "escapedName": "cordova-plugin-compat",
-    "rawSpec": "1.0.0",
+    "rawSpec": "",
     "saveSpec": null,
-    "fetchSpec": "1.0.0"
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-compat/-/cordova-plugin-compat-1.0.0.tgz",
-  "_shasum": "54b773fa6a212fe8e60ad496bacb57aa01da4232",
-  "_spec": "cordova-plugin-compat@1.0.0",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-compat/-/cordova-plugin-compat-1.1.0.tgz",
+  "_shasum": "92bdf169feb61205323dcc96a3ff8348e37e87fc",
+  "_spec": "cordova-plugin-compat",
   "_where": "C:\\Users\\usu\\Documents\\PhoneGap\\cordova-workshop\\node_modules",
   "author": {
     "name": "Apache Software Foundation"
@@ -56,5 +56,5 @@
     "type": "git",
     "url": "git://github.com/apache/cordova-plugin-compat.git"
   },
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

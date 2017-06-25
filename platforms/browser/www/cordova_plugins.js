@@ -139,8 +139,8 @@ module.exports.metadata =
     "cordova-plugin-console": "1.0.7",
     "cordova-plugin-statusbar": "2.2.3",
     "cordova-plugin-geolocation": "2.4.3",
-    "cordova-plugin-compat": "1.0.0",
-    "cordova-plugin-contacts": "2.3.1"
+    "cordova-plugin-contacts": "2.3.1",
+    "cordova-plugin-compat": "1.1.0"
 }
 // BOTTOM OF METADATA
 });
