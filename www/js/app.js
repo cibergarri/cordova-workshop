@@ -33,7 +33,7 @@
                 navigator.notification.alert(
                     message,    // message
                     null,       // callback
-                    "Hola", // title
+                    "Employee-directory", // title
                     'OK'        // buttonName
                 );
             };
